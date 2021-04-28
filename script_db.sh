@@ -1,5 +1,3 @@
-"#! /bin/bash
-
 CREATE ROLE "svetlana_klopot" SUPERUSER CREATEDB INHERIT LOGIN;
 createdb test_db
 psql -U svetlana_klopot -d test_db
