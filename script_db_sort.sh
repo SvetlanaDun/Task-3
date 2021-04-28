@@ -1,5 +1,3 @@
-"#!/bin/bash
-
 SELECT * FROM products  
          WHERE id_product IN ('7');
 
